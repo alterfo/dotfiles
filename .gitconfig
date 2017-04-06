@@ -1,0 +1,14 @@
+[user]
+	email = kalinon7@gmail.com
+	name = Oleg
+[core]
+	autocrlf = true
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[alias]
+	s = status -s
+	lg = log --oneline --decorate --all --graph
