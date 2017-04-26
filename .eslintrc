@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb/legacy",
+  "rules": {
+    "func-names": ["error", "never"],
+    "max-len": [2, {"code": 176, "tabWidth": 4, "ignoreUrls": true}],
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["$scope"] }],
+    "quote-props": [1, "consistent-as-needed"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-alert": 0
+  },
+  "globals": {
+  	"angular": 1,
+    	"moment": 1,
+  	"_": 1,
+  	"$": 1,
+  	"browser": 1,
+  	"console": 1,
+	"KIR":1,
+	"Lsd",
+	"define"
+  },
+  "env": {
+  	"browser": 1
+  }
+}
